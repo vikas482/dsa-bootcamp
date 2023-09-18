@@ -1,5 +1,6 @@
 package dsa_math_problems;
 
+//Time complexity - O(N)
 public class CountDigits {
 
 	static int countDigits(int number) {
@@ -8,6 +9,7 @@ public class CountDigits {
 		while(number>0) {
 			
 			number = number/10;
+			System.out.println(number);
 			count++;
 		}
 		
